@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="134px" viewBox="0 0 134 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>profile</title>
+    <defs>
+        <filter x="-18.4%" y="-36.0%" width="136.8%" height="175.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="8" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="24" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Patient-Profile-Video-Hotels-&amp;-Food-Page-v2-Test" transform="translate(-256.000000, -852.000000)" fill="#F4F5F6">
+            <g id="My-profile-(clip-group)" transform="translate(-421.349333, -735.000000)">
+                <g id="MenuBar-Bottom" filter="url(#filter-1)" transform="translate(421.349333, 1463.000000)">
+                    <g id="profile" transform="translate(313.000000, 181.000000)">
+                        <path d="M20,10 C20,15.5228 15.5228,20 10,20 C4.47715,20 0,15.5228 0,10 C0,4.47715 4.47715,0 10,0 C15.5228,0 20,4.47715 20,10 Z M15.7137,14.4006 C16.0416,14.7351 16.0416,15.265 15.7136,15.5996 C14.2617,17.0809 12.2382,18 10.0001,18 C7.76186,18 5.73834,17.0809 4.28636,15.5994 C3.95845,15.2649 3.95846,14.735 4.28637,14.4004 C5.73834,12.9191 7.76181,12 10,12 C12.2382,12 14.2617,12.9192 15.7137,14.4006 Z M10,10 C11.6569,10 13,8.6569 13,7 C13,5.34315 11.6569,4 10,4 C8.3431,4 7,5.34315 7,7 C7,8.6569 8.3431,10 10,10 Z" id="Vector"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

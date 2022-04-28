@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="382px" height="382px" viewBox="0 0 382 382" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>star</title>
+    <defs>
+        <filter x="-192.2%" y="-1110.0%" width="484.4%" height="2320.0%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="24" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="64" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="32" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0588235294   0 0 0 0 0.0588235294   0 0 0 0 0.0588235294  0 0 0 0.100000001 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Patient-Profile-Video-Hotels-&amp;-Food-Page-v2-Test" transform="translate(-7.000000, -198.000000)" fill="#FFD700" fill-rule="nonzero">
+            <g id="My-profile-(clip-group)" transform="translate(-421.349333, -735.000000)">
+                <g id="VideoCard" transform="translate(421.349333, 859.000000)">
+                    <g id="Video-list" transform="translate(24.000000, 96.000000)">
+                        <g id="product-card-3" transform="translate(0.000000, 45.000000)">
+                            <g id="content" transform="translate(164.000000, 10.000000)">
+                                <g id="love" filter="url(#filter-1)" transform="translate(0.000000, 104.000000)">
+                                    <g id="star" transform="translate(1.000000, 1.000000)">
+                                        <path d="M7.84793948,0.836237165 C8.21112609,-0.278745722 9.78856659,-0.278745722 10.1505426,0.836237165 L11.4459081,4.82160487 C11.6082499,5.3194901 12.0723156,5.6565483 12.5959991,5.65693407 L16.7871725,5.65693407 C17.9602653,5.65693407 18.4469353,7.15810538 17.4990183,7.84815994 L14.1092766,10.3105651 C13.6846615,10.6186007 13.5067452,11.165058 13.6686102,11.6640406 L14.9639758,15.6494083 C15.3271624,16.7643912 14.0499561,17.6929383 13.0996178,17.0028837 L9.70987616,14.5404785 C9.28571427,14.2325353 8.71155716,14.2325353 8.28739528,14.5404785 L4.8976536,17.0028837 C3.94852594,17.6929383 2.67253032,16.7643912 3.03450631,15.6494083 L4.32987187,11.6640406 C4.4917369,11.165058 4.31382057,10.6186007 3.88920546,10.3105651 L0.500674405,7.84937056 C-0.447242642,7.15931601 0.0406380347,5.65814469 1.21252016,5.65814469 L5.40248299,5.65814469 C5.92661258,5.65828277 6.39130437,5.32112469 6.55378454,4.8228155 L7.8491501,0.837447787 L7.84793948,0.836237165 Z" id="Path"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="135px" height="135px" viewBox="0 0 135 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>edit</title>
+    <defs>
+        <filter x="-18.4%" y="-36.0%" width="136.8%" height="175.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="8" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="24" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Patient-Profile-Video-Hotels-&amp;-Food-Page-v2-Test" transform="translate(-46.000000, -851.000000)" fill="#F4F5F6">
+            <g id="My-profile-(clip-group)" transform="translate(-421.349333, -735.000000)">
+                <g id="MenuBar-Bottom" filter="url(#filter-1)" transform="translate(421.349333, 1463.000000)">
+                    <g id="edit" transform="translate(103.598836, 180.875651)">
+                        <path d="M0.0739341019,16.3276229 L0.802439807,13.0493257 C0.968348995,12.3027947 1.34371062,11.6189962 1.88449887,11.0782306 L11.7848755,1.1778168 C13.3552975,-0.392602837 15.9014652,-0.392605853 17.4718872,1.17780926 L18.8222179,2.52811725 C20.3926399,4.09853161 20.3926399,6.64468406 18.8222179,8.21508335 L8.92180352,18.1154971 C8.38103789,18.6562627 7.6972393,19.0316771 6.95064042,19.1975561 L3.67235811,19.9260666 C1.51743874,20.4049292 -0.404935579,18.4825422 0.0739341019,16.3276229 Z M2.76521848,13.4855121 L2.03670795,16.7638093 C1.87708709,17.4821409 2.51787777,18.1228863 3.23618674,17.9632654 L6.51446905,17.234755 C6.87346897,17.1549822 7.20343252,16.9783211 7.46868816,16.7244508 L3.27556793,12.5313308 C3.0216373,12.7965864 2.84499876,13.1265349 2.76521848,13.4855121 Z M4.69697778,11.1092198 L8.89073891,15.3030184 L14.5063472,9.68748583 L10.3125484,5.49367972 L4.69697778,11.1092198 Z M17.4004084,6.7933569 L15.9280813,8.26575185 L11.7342824,4.07193065 L13.2066096,2.59956587 C13.9918206,1.81435492 15.2649422,1.81435492 16.0501532,2.59955833 L17.4004084,3.94986631 C18.1856194,4.73506973 18.1856194,6.00814595 17.4004084,6.7933569 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

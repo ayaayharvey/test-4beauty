@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>back</title>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Patient-Profile-Video-Hotels-&amp;-Food-Page-v2-Test" transform="translate(-27.000000, -40.000000)">
+            <g id="My-profile-(clip-group)" transform="translate(-421.349333, -735.000000)">
+                <g id="topcover" transform="translate(179.349333, 0.000000)">
+                    <g id="topbar" transform="translate(269.000000, 769.000000)">
+                        <g id="back" transform="translate(0.000000, 6.000000)">
+                            <rect id="icon-(style)" fill="#353945" fill-rule="nonzero" x="0" y="0" width="32" height="32" rx="16"></rect>
+                            <path d="M18.942809,10.3905234 C19.4635089,10.9112213 19.4635089,11.7554366 18.942809,12.2761355 L15.2189497,15.9999876 L18.942809,19.7238398 C19.4635089,20.2445787 19.4635089,21.0887769 18.942809,21.6094758 C18.4221091,22.1301747 17.5778893,22.1301747 17.0571894,21.6094758 L12.3905242,16.9427956 C11.8698253,16.4220967 11.8698253,15.5778785 12.3905242,15.0571796 L17.0571894,10.3905234 C17.5778893,9.86982552 18.4221091,9.86982552 18.942809,10.3905234 Z" id="Shape" fill="#FCFCFD"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

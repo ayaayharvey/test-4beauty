@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="134px" viewBox="0 0 134 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>home</title>
+    <defs>
+        <filter x="-18.4%" y="-36.0%" width="136.8%" height="175.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="8" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="24" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Patient-Profile-Video-Hotels-&amp;-Food-Page-v2-Test" transform="translate(15.000000, -852.000000)" fill="#00FFE6">
+            <g id="My-profile-(clip-group)" transform="translate(-421.349333, -735.000000)">
+                <g id="MenuBar-Bottom" filter="url(#filter-1)" transform="translate(421.349333, 1463.000000)">
+                    <g id="home" transform="translate(42.000000, 181.036086)">
+                        <path d="M3,19.9638998 C1.34315,19.9638998 0,18.6207998 0,16.9638998 L0,9.30000975 C0,8.44950975 0.36096,7.63903975 0.99311,7.07010975 L7.9931,0.77012375 C9.134,-0.25670625 10.866,-0.25670625 12.0069,0.77011375 L19.0069,7.07010975 C19.639,7.63903975 20,8.44950975 20,9.30000975 L20,16.9638998 C20,18.6207998 18.6569,19.9638998 17,19.9638998 L3,19.9638998 Z M18,9.30000975 L18,16.9638998 C18,17.5161998 17.5523,17.9638998 17,17.9638998 L14,17.9638998 L14,12.9638998 C14,11.3069998 12.6569,9.96390975 11,9.96390975 L9,9.96390975 C7.34315,9.96390975 6,11.3069998 6,12.9638998 L6,17.9638998 L3,17.9638998 C2.44772,17.9638998 2,17.5161998 2,16.9638998 L2,9.30000975 C2,9.01650975 2.12032,8.74630975 2.33104,8.55670975 L9.331,2.25669975 C9.7113,1.91442975 10.2887,1.91442975 10.669,2.25669975 L17.669,8.55670975 C17.8797,8.74630975 18,9.01650975 18,9.30000975 Z M8,17.9638998 L8,12.9638998 C8,12.4115998 8.4477,11.9638998 9,11.9638998 L11,11.9638998 C11.5523,11.9638998 12,12.4115998 12,12.9638998 L12,17.9638998 L8,17.9638998 Z" id="Vector"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

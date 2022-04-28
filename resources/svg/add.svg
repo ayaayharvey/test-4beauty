@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="78px" viewBox="0 0 76 78" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>add</title>
+    <defs>
+        <filter x="-18.4%" y="-36.0%" width="136.8%" height="175.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feMorphology radius="8" operator="erode" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="24" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Patient-Profile-Video-Hotels-&amp;-Food-Page-v2-Test" transform="translate(-150.000000, -897.000000)" fill="#F4F5F6">
+            <g id="My-profile-(clip-group)" transform="translate(-421.349333, -735.000000)">
+                <g id="MenuBar-Bottom" filter="url(#filter-1)" transform="translate(421.349333, 1463.000000)">
+                    <g id="Frame-1085" transform="translate(67.000000, 0.000000)">
+                        <path d="M121,213 C133.150264,213 143,203.150264 143,191 C143,178.849736 133.150264,169 121,169 C108.849736,169 99,178.849736 99,191 C99,203.150264 108.849736,213 121,213 Z M122,180.5 C122,179.67158 121.3285,179 120.5,179 C119.6715,179 119,179.67158 119,180.5 L119,189.5 L110,189.5 C109.17158,189.5 108.5,190.1716 108.5,191 C108.5,191.8285 109.17158,192.5 110,192.5 L119,192.5 L119,201.5 C119,202.3284 119.6715,203 120.5,203 C121.3285,203 122,202.3284 122,201.5 L122,192.5 L131,192.5 C131.8284,192.5 132.5,191.8285 132.5,191 C132.5,190.1716 131.8284,189.5 131,189.5 L122,189.5 L122,180.5 Z" id="add"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
